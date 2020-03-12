@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourceManager>
+	<models>
+		<model id="1">
+			<path>Resources/Models/cube.obj</path>
+			<type>obj</type>
+		</model>
+		<model id="2">
+			<path>Resources/Models/bunny.obj</path>
+			<type>nobj</type>
+		</model>
+		<model id="3">
+			<path>Resources/Models/sphere.obj</path>
+			<type>nobj</type>
+		</model>
+		<model id="4">
+			<path>Resources/Models/hyperboloid.obj</path>
+			<type>nobj</type>
+		</model>
+		<model id="5">
+			<path>Resources/Models/hyperboloid_2_sheet.obj</path>
+			<type>nobj</type>
+		</model>
+		<!-- si aici se adauga toate modelele -->
+	</models>
+	<shaders>
+		<shader id="1">
+			<vs>Resources/Shaders/modelShader.vert</vs>
+			<fs>Resources/Shaders/modelShader.frag</fs>
+		</shader>
+		<shader id="2">
+			<vs>Resources/Shaders/instancedModelShader.vert</vs>
+			<fs>Resources/Shaders/instancedModelShader.frag</fs>
+		</shader>
+		<shader id="3">
+			<vs>Resources/Shaders/modelShader2.vert</vs>
+			<fs>Resources/Shaders/modelShader2.frag</fs>
+		</shader>
+		<!-- si aici se adauga toate shaderele -->
+	</shaders>
+	<textures>
+		<!-- si aici se adauga toate texturile -->
+	</textures>	
+</resourceManager>
