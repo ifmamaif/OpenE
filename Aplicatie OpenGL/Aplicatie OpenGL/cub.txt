@@ -1,0 +1,107 @@
+verticesData[0].pos.x =  -1.0f;  verticesData[0].pos.y =  -1.0f;  verticesData[0].pos.z =  -1.0f;
+	verticesData[0].color.x = 1.0f;  verticesData[0].color.y = 0.0f;  verticesData[0].color.z = 0.0f;
+	
+	verticesData[1].pos.x = -1.0f;  verticesData[1].pos.y = -1.0f;  verticesData[1].pos.z =  1.0f;
+	verticesData[1].color.x = 0.0f;  verticesData[1].color.y = 1.0f;  verticesData[1].color.z = 0.0f;
+	
+	verticesData[2].pos.x =  -1.0f;  verticesData[2].pos.y = 1.0f;  verticesData[2].pos.z =  1.0f;
+	verticesData[2].color.x = 0.0f;  verticesData[2].color.y = 0.0f;  verticesData[2].color.z = 1.0f;
+		
+	verticesData[3].pos.x = 1.0f;  verticesData[3].pos.y = 1.0f;  verticesData[3].pos.z = -1.0f;
+	verticesData[3].color.x = 1.0f;  verticesData[3].color.y = 0.0f;  verticesData[3].color.z = 0.0f;
+
+	verticesData[4].pos.x = -1.0f;  verticesData[4].pos.y = -1.0f;  verticesData[4].pos.z = -1.0f;
+	verticesData[4].color.x = 0.0f;  verticesData[4].color.y = 1.0f;  verticesData[4].color.z = 0.0f;
+
+	verticesData[5].pos.x = -1.0f;  verticesData[5].pos.y = 1.0f;  verticesData[5].pos.z = -1.0f;
+	verticesData[5].color.x = 0.0f;  verticesData[5].color.y = 0.0f;  verticesData[5].color.z = 1.0f;
+
+	verticesData[6].pos.x = 1.0f;  verticesData[6].pos.y = -1.0f;  verticesData[6].pos.z = 1.0f;
+	verticesData[6].color.x = 1.0f;  verticesData[6].color.y = 0.0f;  verticesData[6].color.z = 0.0f;
+
+	verticesData[7].pos.x = -1.0f;  verticesData[7].pos.y = -1.0f;  verticesData[7].pos.z = -1.0f;
+	verticesData[7].color.x = 0.0f;  verticesData[7].color.y = 1.0f;  verticesData[7].color.z = 0.0f;
+
+	verticesData[8].pos.x = -1.0f;  verticesData[8].pos.y = -1.0f;  verticesData[8].pos.z = -1.0f;
+	verticesData[8].color.x = 0.0f;  verticesData[8].color.y = 0.0f;  verticesData[8].color.z = 1.0f;
+
+	verticesData[9].pos.x = 1.0f;  verticesData[9].pos.y = 1.0f;  verticesData[9].pos.z = -1.0f;
+	verticesData[9].color.x = 1.0f;  verticesData[9].color.y = 0.0f;  verticesData[9].color.z = 0.0f;
+
+	verticesData[10].pos.x = 1.0f;  verticesData[10].pos.y = -1.0f;  verticesData[10].pos.z = -1.0f;
+	verticesData[10].color.x = 0.0f;  verticesData[10].color.y = 1.0f;  verticesData[10].color.z = 0.0f;
+
+	verticesData[11].pos.x = -1.0f;  verticesData[11].pos.y = -1.0f;  verticesData[11].pos.z = -1.0f;
+	verticesData[11].color.x = 0.0f;  verticesData[11].color.y = 0.0f;  verticesData[11].color.z = 1.0f;
+
+	verticesData[12].pos.x = -1.0f;  verticesData[12].pos.y = -1.0f;  verticesData[12].pos.z = -1.0f;
+	verticesData[12].color.x = 1.0f;  verticesData[12].color.y = 0.0f;  verticesData[12].color.z = 0.0f;
+
+	verticesData[13].pos.x = -1.0f;  verticesData[13].pos.y = 1.0f;  verticesData[13].pos.z = 1.0f;
+	verticesData[13].color.x = 0.0f;  verticesData[13].color.y = 1.0f;  verticesData[13].color.z = 0.0f;
+
+	verticesData[14].pos.x = -1.0f;  verticesData[14].pos.y = 1.0f;  verticesData[14].pos.z = -1.0f;
+	verticesData[14].color.x = 0.0f;  verticesData[14].color.y = 0.0f;  verticesData[14].color.z = 1.0f;
+
+	verticesData[15].pos.x = 1.0f;  verticesData[15].pos.y = -1.0f;  verticesData[15].pos.z = 1.0f;
+	verticesData[15].color.x = 1.0f;  verticesData[15].color.y = 0.0f;  verticesData[15].color.z = 0.0f;
+
+	verticesData[16].pos.x = -1.0f;  verticesData[16].pos.y = -1.0f;  verticesData[16].pos.z = 1.0f;
+	verticesData[16].color.x = 0.0f;  verticesData[16].color.y = 1.0f;  verticesData[16].color.z = 0.0f;
+
+	verticesData[17].pos.x = -1.0f;  verticesData[17].pos.y = -1.0f;  verticesData[17].pos.z = -1.0f;
+	verticesData[17].color.x = 0.0f;  verticesData[17].color.y = 0.0f;  verticesData[17].color.z = 1.0f;
+
+	verticesData[18].pos.x = -1.0f;  verticesData[18].pos.y = 1.0f;  verticesData[18].pos.z = 1.0f;
+	verticesData[18].color.x = 1.0f;  verticesData[18].color.y = 0.0f;  verticesData[18].color.z = 0.0f;
+
+	verticesData[19].pos.x = -1.0f;  verticesData[19].pos.y = -1.0f;  verticesData[19].pos.z = 1.0f;
+	verticesData[19].color.x = 0.0f;  verticesData[19].color.y = 1.0f;  verticesData[19].color.z = 0.0f;
+
+	verticesData[20].pos.x = 1.0f;  verticesData[20].pos.y = -1.0f;  verticesData[20].pos.z = 1.0f;
+	verticesData[20].color.x = 0.0f;  verticesData[20].color.y = 0.0f;  verticesData[20].color.z = 1.0f;
+
+	verticesData[21].pos.x = 1.0f;  verticesData[21].pos.y = 1.0f;  verticesData[21].pos.z = 1.0f;
+	verticesData[21].color.x = 1.0f;  verticesData[21].color.y = 0.0f;  verticesData[21].color.z = 0.0f;
+
+	verticesData[22].pos.x = 1.0f;  verticesData[22].pos.y = -1.0f;  verticesData[22].pos.z = -1.0f;
+	verticesData[22].color.x = 0.0f;  verticesData[22].color.y = 1.0f;  verticesData[22].color.z = 0.0f;
+
+	verticesData[23].pos.x = 1.0f;  verticesData[23].pos.y = 1.0f;  verticesData[23].pos.z = -1.0f;
+	verticesData[23].color.x = 0.0f;  verticesData[23].color.y = 0.0f;  verticesData[23].color.z = 1.0f;
+	
+	verticesData[24].pos.x = 1.0f;  verticesData[24].pos.y = -1.0f;  verticesData[24].pos.z = -1.0f;
+	verticesData[24].color.x = 1.0f;  verticesData[24].color.y = 0.0f;  verticesData[24].color.z = 0.0f;
+
+	verticesData[25].pos.x = 1.0f;  verticesData[25].pos.y = 1.0f;  verticesData[25].pos.z = 1.0f;
+	verticesData[25].color.x = 0.0f;  verticesData[25].color.y = 1.0f;  verticesData[25].color.z = 0.0f;
+
+	verticesData[26].pos.x = 1.0f;  verticesData[26].pos.y = -1.0f;  verticesData[26].pos.z = 1.0f;
+	verticesData[26].color.x = 0.0f;  verticesData[26].color.y = 0.0f;  verticesData[26].color.z = 1.0f;
+		
+	verticesData[27].pos.x = 1.0f;  verticesData[27].pos.y = 1.0f;  verticesData[27].pos.z = 1.0f;
+	verticesData[27].color.x = 1.0f;  verticesData[27].color.y = 0.0f;  verticesData[27].color.z = 0.0f;
+
+	verticesData[28].pos.x = 1.0f;  verticesData[28].pos.y = 1.0f;  verticesData[28].pos.z = -1.0f;
+	verticesData[28].color.x = 0.0f;  verticesData[28].color.y = 1.0f;  verticesData[28].color.z = 0.0f;
+
+	verticesData[29].pos.x = -1.0f;  verticesData[29].pos.y = 1.0f;  verticesData[29].pos.z = -1.0f;
+	verticesData[29].color.x = 0.0f;  verticesData[29].color.y = 0.0f;  verticesData[29].color.z = 1.0f;
+	
+	verticesData[30].pos.x = 1.0f;  verticesData[30].pos.y = 1.0f;  verticesData[30].pos.z = 1.0f;
+	verticesData[30].color.x = 0.0f;  verticesData[30].color.y = 0.0f;  verticesData[30].color.z = 0.0f;
+
+	verticesData[31].pos.x = -1.0f;  verticesData[31].pos.y = 1.0f;  verticesData[31].pos.z = -1.0f;
+	verticesData[31].color.x = 0.0f;  verticesData[31].color.y = 0.0f;  verticesData[31].color.z = 0.0f;
+
+	verticesData[32].pos.x = -1.0f;  verticesData[32].pos.y = 1.0f;  verticesData[32].pos.z = 1.0f;
+	verticesData[32].color.x = 0.0f;  verticesData[32].color.y = 0.0f;  verticesData[32].color.z = 0.0f;
+		
+	verticesData[33].pos.x = 1.0f;  verticesData[33].pos.y = 1.0f;  verticesData[33].pos.z = 1.0f;
+	verticesData[33].color.x = 1.0f;  verticesData[33].color.y = 1.0f;  verticesData[33].color.z = 1.0f;
+
+	verticesData[34].pos.x = -1.0f;  verticesData[34].pos.y = 1.0f;  verticesData[34].pos.z = 1.0f;
+	verticesData[34].color.x = 1.0f;  verticesData[34].color.y = 1.0f;  verticesData[34].color.z = 1.0f;
+
+	verticesData[35].pos.x = 1.0f;  verticesData[35].pos.y = -1.0f;  verticesData[35].pos.z = 1.0f;
+	verticesData[35].color.x = 1.0f;  verticesData[35].color.y = 1.0f;  verticesData[35].color.z = 1.0f;

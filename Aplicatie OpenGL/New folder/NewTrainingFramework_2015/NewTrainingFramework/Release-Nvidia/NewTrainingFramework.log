@@ -1,0 +1,11 @@
+﻿  NewTrainingFramework.cpp
+f:\proiect_2015\newtrainingframework_2015\newtrainingframework\newtrainingframework.cpp(21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+f:\proiect_2015\newtrainingframework_2015\newtrainingframework\newtrainingframework.cpp(25): warning C4305: 'initializing': truncation from 'double' to 'float'
+f:\proiect_2015\newtrainingframework_2015\newtrainingframework\newtrainingframework.cpp(68): warning C4018: '<': signed/unsigned mismatch
+f:\proiect_2015\newtrainingframework_2015\newtrainingframework\newtrainingframework.cpp(108): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  3 of 251 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  NewTrainingFramework.vcxproj -> F:\proiect_2015\NewTrainingFramework_2015\\BIN-Nvidia\NewTrainingFramework.exe

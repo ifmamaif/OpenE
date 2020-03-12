@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sceneManager>
+
+	<backgroundColor>
+		<r>0.0</r>
+		<g>0.0</g>
+		<b>0.0</b>
+	</backgroundColor>
+	
+	<wiredColor>
+		<r>0.4</r>
+		<g>0.4</g>
+		<b>0.4</b>
+	</wiredColor>
+	<AABBColor>
+		<r>0.10</r>
+		<g>0.10</g>
+		<b>0.90</b>
+	</AABBColor>
+	
+	<fog>
+	<color>
+		<r>0.0001</r>
+		<g>0.0001</g>
+		<b>0.0001</b>
+	</color>
+	<r>150</r>
+	<R>20050</150>
+	</fog>
+	
+	
+	<cameras>
+		<camera id="1">
+			<position>
+				<x>0</x>
+				<y>0</y>
+				<z>-500</z>
+			</position>
+			<target>
+				<x>0</x>
+				<y>0</y>
+				<z>-100</z>
+			</target>
+			<up>
+				<x>0</x>
+				<y>1</y>
+				<z>0</z>
+			</up>
+			<translationSpeed>10</translationSpeed>
+			<rotationSpeed>0.3</rotationSpeed>
+			<fov> 0.78 </fov>
+			<near>0.2</near>
+			<far>3000</far>
+		</camera>
+		<!-- eventual si alte cameras -->
+	</cameras>
+	<activeCamera>1</activeCamera>
+
+	
+	<objects>
+		<object id="1">
+			<model>5</model><!-- id model -->
+			<shader>10</shader><!-- id shader -->
+			<type>normal</type>
+			<blend>true</blend>
+			<name>bus</name><!-- optional -->
+			<textures>
+				<texture id="15"/>
+			</textures>
+			<position><!-- translatia -->
+				<x>0</x>
+				<y>0</y>
+				<z>-100</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>0.5</x>
+				<y>0.5</y>
+				<z>0.5</z>
+			</scale>
+			<kDiffuse>0.8</kDiffuse>
+			<kSpecular>0.07</kSpecular>
+			
+			<wiredColor>
+		<r>1.0</r>
+		<g>1.0</g>
+		<b>0.0</b>
+	</wiredColor>
+	<AABBColor>
+		<r>1.0</r>
+		<g>0.5</g>
+		<b>0.3</b>
+	</AABBColor>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+			<lights>
+				<light>1</light>
+			</lights>
+		</object>
+		<object id="2">
+			<model>5</model><!-- id model -->
+			<shader>10</shader><!-- id shader -->
+			<type>normal</type>
+			<blend>true</blend>
+			<name>ball</name><!-- optional -->
+			<textures>
+				<texture id="15"/>
+			</textures>
+			<position><!-- translatia -->
+				<x>0</x>
+				<y>0</y>
+				<z>1000</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>4.5</x>
+				<y>4.5</y>
+				<z>4.5</z>
+			</scale>
+			<kDiffuse>1.0</kDiffuse>
+			<kSpecular>0.0</kSpecular>
+			
+			<wiredColor>
+		<r>1.0</r>
+		<g>0.0</g>
+		<b>0.0</b>
+	</wiredColor>
+	<AABBColor>
+		<r>0.1</r>
+		<g>0.5</g>
+		<b>1.0</b>
+	</AABBColor>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+			<lights>
+				<light>1</light>
+			</lights>
+		</object>
+		<object id="3">
+			<model>5</model><!-- id model -->
+			<shader>10</shader><!-- id shader -->
+			<type>normal</type>
+			<blend>true</blend>
+			<name>ball</name><!-- optional -->
+			<textures>
+				<texture id="15"/>
+			</textures>
+			<position><!-- translatia -->
+				<x>0</x>
+				<y>0</y>
+				<z>2000</z>
+			</position>
+			<rotation>
+				<x>0</x>
+				<y>0</y>
+				<z>0</z>
+			</rotation>
+			<scale>
+				<x>10.5</x>
+				<y>10.5</y>
+				<z>10.5</z>
+			</scale>
+			<kDiffuse>1.0</kDiffuse>
+			<kSpecular>0.0</kSpecular>
+			
+			<wiredColor>
+		<r>1.0</r>
+		<g>0.0</g>
+		<b>0.0</b>
+	</wiredColor>
+	<AABBColor>
+		<r>0.1</r>
+		<g>0.5</g>
+		<b>1.0</b>
+	</AABBColor>
+			<followingCamera>
+				<cameras>
+					<camera>1</camera>
+				</cameras>
+				<ox/>
+				<oy/>
+				<oz/>
+			</followingCamera>
+			<lights>
+				<light>1</light>
+			</lights>
+		</object>
+	</objects>
+	
+	
+
+	<ambientalLight>
+		<color>
+			<r>0.100</r>
+			<g>0.100</g>
+			<b>0.100</b>
+		</color>
+		<ratio>0.0</ratio>
+	</ambientalLight>
+	
+	<lights>
+		<light id="1">
+			<type>spot</type>
+			<associatedObject>2</associatedObject>
+			<position>
+			 <x>0</x>
+			 <y>0</y>
+			 <z>-500</z>
+			</position> 
+			<direction>
+			 <x>0</x>
+			 <y>0</y>
+			 <z>1</z>
+			</direction> 
+			<light_color>
+			 <x>1</x>
+			 <y>1</y>
+			 <z>1</z>
+			</light_color> 
+			<alpha>0.4570284974</alpha>
+			<specular_power>32</specular_power>
+		</light>
+	</lights>
+	
+	<debugSettings>
+		<objectAxes>
+			<OXColor>
+				<r>1.0</r>
+				<g>0.0</g>
+				<b>0.0</b>
+			</OXColor>
+			<OYColor>
+				<r>0.0</r>
+				<g>1.0</g>
+				<b>0.0</b>
+			</OYColor>
+			<OZColor>
+				<r>0.0</r>
+				<g>0.0</g>
+				<b>1.0</b>
+			</OZColor>
+		</objectAxes>
+		<camAxes>
+			<OXColor>
+				<r>1.0</r>
+				<g>1.0</g>
+				<b>0.0</b>
+			</OXColor>
+			<OYColor>
+				<r>0.0</r>
+				<g>1.0</g>
+				<b>1.0</b>
+			</OYColor>
+			<OZColor>
+				<r>1.0</r>
+				<g>0.0</g>
+				<b>1.0</b>
+			</OZColor>
+		</camAxes>
+	</debugSettings>
+	
+</sceneManager>

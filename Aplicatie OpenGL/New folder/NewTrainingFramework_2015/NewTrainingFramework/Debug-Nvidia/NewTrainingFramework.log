@@ -1,0 +1,56 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  stdafx.cpp
+cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Texture.cpp
+  Sound.cpp
+  Shader.cpp
+  SceneObject.cpp
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.h(170): warning C4042: '_lights': has bad storage class
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(40): warning C4244: 'argument': conversion from 'clock_t' to 'const float', possible loss of data
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(250): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(334): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(359): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(406): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(457): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(459): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(462): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(463): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(464): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(465): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(466): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.cpp(467): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  SceneManager.cpp
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.h(170): warning C4042: '_lights': has bad storage class
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\scenemanager.cpp(223): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\scenemanager.cpp(261): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\scenemanager.cpp(497): warning C4305: 'argument': truncation from 'double' to 'const float'
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\scenemanager.cpp(506): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\scenemanager.cpp(512): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  ResourceManager.cpp
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\resourcemanager.cpp(206): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\resourcemanager.cpp(222): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\resourcemanager.cpp(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\resourcemanager.cpp(243): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\resourcemanager.cpp(270): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  NewTrainingFramework.cpp
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\sceneobject.h(170): warning C4042: '_lights': has bad storage class
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\newtrainingframework.cpp(23): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Model.cpp
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\model.cpp(232): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\model.cpp(233): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\model.cpp(247): warning C4018: '<': signed/unsigned mismatch
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\model.cpp(248): warning C4018: '<': signed/unsigned mismatch
+  Framebuffer.cpp
+  Camera.cpp
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\camera.cpp(6): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\camera.cpp(13): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+f:\proiect_2015\new folder\newtrainingframework_2015\newtrainingframework\camera.cpp(20): warning C4244: 'argument': conversion from 'GLint' to 'GLfloat', possible loss of data
+  Generating Code...
+Camera.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  NewTrainingFramework.vcxproj -> F:\proiect_2015\New folder\NewTrainingFramework_2015\\BIN-Nvidia\NewTrainingFramework.exe

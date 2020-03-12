@@ -1,0 +1,14 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  stdafx.cpp
+cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  TGA.cpp
+  Math.cpp
+f:\proiect_2015\new folder\newtrainingframework_2015\utilities\math.cpp(7): warning C4305: 'initializing': truncation from 'double' to 'float'
+f:\proiect_2015\new folder\newtrainingframework_2015\utilities\math.cpp(12): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+f:\proiect_2015\new folder\newtrainingframework_2015\utilities\math.cpp(106): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+f:\proiect_2015\new folder\newtrainingframework_2015\utilities\math.cpp(226): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+  esUtil_win.cpp
+  esUtil.cpp
+  esShader.cpp
+  Generating Code...
+  Utilities.vcxproj -> F:\proiect_2015\New folder\NewTrainingFramework_2015\\BIN-Nvidia\Utilities.lib

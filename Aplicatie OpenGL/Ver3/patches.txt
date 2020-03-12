@@ -1,0 +1,5 @@
+modifica randarea AABB astfel incat sa se foloseasca un unic model paralelipiped, caruia ii trimit o matrice de transformare, fata de crearea unui model  AABB pentru fiecare obiect
+modifica functia Key astfel incat sa nu mai fie virtuala (sa fiecomuna), sa fie compusa din din apelul la o functie virtuala (particularitatile clasei) si o functie comuna move, care momentant trebuie adaugata separat la finalul
+fiecarei functii Key;
+adaugarea normalelor la afisarea debug.
+adaugarea unui model comun pentru axele de coordonate la afisarea debug 

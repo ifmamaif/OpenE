@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourceManager>
+	<models>
+		<model id="1">
+			<path>Resources/Models/croco.nfg</path>
+		</model>
+		<model id="5">
+			<path>Resources/Models/bila.nfg</path>
+		</model>
+		<model id="6">
+			<path>Resources/Models/buS.nfg</path>
+		</model>
+		<model id="100">
+			<path>Resources/Models/fire.nfg</path>
+		</model>
+		<model id="200">
+			<path>Resources/Models/skybox.nfg</path>
+		</model>
+		<!-- si aici se adauga toate modelele -->
+	</models>
+	<shaders>
+		<shader id="10">
+			<vs>Resources/Shaders/modelShader.vert</vs>
+			<fs>Resources/Shaders/modelShader.frag</fs>
+		</shader>
+		<shader id="-10">
+			<vs>Resources/Shaders/debugShader.vert</vs>
+			<fs>Resources/Shaders/debugShader.frag</fs>
+		</shader>
+		<shader id="-322">
+			<vs>Resources/Shaders/filterShader.vert</vs>
+			<fs>Resources/Shaders/grayscaleShader.frag</fs>
+		</shader>
+		<shader id="-323">
+			<vs>Resources/Shaders/filterShader.vert</vs>
+			<fs>Resources/Shaders/blurShader.frag</fs>
+		</shader>
+		<shader id="-324">
+			<vs>Resources/Shaders/filterShader.vert</vs>
+			<fs>Resources/Shaders/bloomShader.frag</fs>
+		</shader>
+		<shader id="8">
+			<vs>Resources/Shaders/terrainShader.vert</vs>
+			<fs>Resources/Shaders/terrainShader.frag</fs>
+		</shader>
+		<shader id="9">
+			<vs>Resources/Shaders/fireShader.vert</vs>
+			<fs>Resources/Shaders/fireShader.frag</fs>
+		</shader>
+		<shader id="200">
+			<vs>Resources/Shaders/skyBoxShader.vert</vs>
+			<fs>Resources/Shaders/skyBoxShader.frag</fs>
+		</shader>
+		<shader id="11">
+			<vs>Resources/Shaders/reflectableModelShader.vert</vs>
+			<fs>Resources/Shaders/reflectableModelShader.frag</fs>
+		</shader>
+		<!-- si aici se adauga toate shaderele -->
+	</shaders>
+	<textures>
+		<texture id="4" type="2d">
+			<path>Resources/Textures/Croco.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</textture>
+		<texture id="14" type="2d">
+			<path>Resources/Textures/Dirt.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="15" type="2d">
+			<path>Resources/Textures/Rock.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</textture>	
+		<texture id="16" type="2d">
+			<path>Resources/Textures/Grass.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</textture>	
+		<texture id="17" type="2d">
+			<path>Resources/Textures/Terrain_blend_map.tga</path>			
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</textture>	
+		<texture id="5" type="2d">
+			<path>Resources/Textures/Bus.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+		</texture>
+		<texture id="101" type="2d">
+			<path>Resources/Textures/fire3.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="102" type="2d">
+			<path>Resources/Textures/fire_mask.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="103" type="2d">
+			<path>Resources/Textures/displacementMap.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>REPEAT</wrap_s>
+			<wrap_t>REPEAT</wrap_t>
+		</texture>
+		<texture id="200" type="cube">
+			<path>Resources/Textures/envMap.tga</path>
+			<min_filter>LINEAR</min_filter>
+			<mag_filter>LINEAR</mag_filter>
+			<wrap_s>CLAMP_TO_EDGE</wrap_s>
+			<wrap_t>CLAMP_TO_EDGE</wrap_t>
+			<wrap_r>CLAMP_TO_EDGE</wrap_r>
+		</texture>
+		<!-- si aici se adauga toate texturile -->
+	</textures>	
+	<sounds>
+		<sound id="1">Resources/Sounds/toc.wav</sound>
+		<sound id="2">Resources/Sounds/hapciu.wav</sound>
+		<sound id="3">Resources/Sounds/about_time.wav</sound>
+	</sounds>
+</resourceManager>

@@ -1,0 +1,7 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Math.cpp
+f:\aplicatie opengl\aplicatie opengl\utilities\math.cpp(7): warning C4305: 'initializing': truncation from 'double' to 'float'
+f:\aplicatie opengl\aplicatie opengl\utilities\math.cpp(12): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+f:\aplicatie opengl\aplicatie opengl\utilities\math.cpp(106): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+f:\aplicatie opengl\aplicatie opengl\utilities\math.cpp(226): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+  Utilities.vcxproj -> F:\Aplicatie OpenGL\Aplicatie OpenGL\\BIN-Nvidia\Utilities.lib
